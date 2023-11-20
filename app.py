@@ -21,8 +21,7 @@ def page_not_found(e):
 
 #internl server error
 @app.errorhandler(500)
-def page_not_found(e):
-  return render_template("500.html"),500
+ git push -u origin main
 
 if __name__ == "__main__":
     app.run(debug=True)
