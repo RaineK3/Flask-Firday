@@ -1,1 +1,6 @@
-<p>Hello {{username|upper}}!</p>
+{% extends 'base.html' %}
+
+{% block content %}
+  <p>Hello {{username}}!</p>
+{% endblock %}
+
